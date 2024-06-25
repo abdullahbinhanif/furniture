@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="py-7 container flex justify-between items-center">
         <img src="/public/logo.png" alt="logo" />
         <ul className="flex items-center gap-[75px] text-lg font-primary  font-medium">
-          <li className="text-[#B88E2F]">Home</li>
+          <li className="text-[#B88E2F] ">Home</li>
           <li className=" hover:text-[#B88E2F] transition-all ease-linear">
             Shop
           </li>

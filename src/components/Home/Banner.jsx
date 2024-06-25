@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Banner = () => {
   return (
-    <section>
-        
+    <section className="py-12 bg-[url('/banner.jpg')]">
+      <div className="container">
+     
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

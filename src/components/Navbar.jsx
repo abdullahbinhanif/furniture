@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav>
       <div className="py-7 container flex justify-between items-center">
         <img src="/public/logo.png" alt="logo" />
-        <ul className="flex items-center gap-[75px] text-lg font-primary  font-medium">
+        <ul className="flex items-center gap-[75px] text-lg font-primary text-black font-medium">
           <Link>
             <li>Home</li>
           </Link>

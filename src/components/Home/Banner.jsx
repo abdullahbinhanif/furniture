@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Button";
 
 const Banner = () => {
   return (
@@ -13,6 +14,7 @@ const Banner = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
+          <Button title="BUY NOW" path="/shop" />
         </div>
       </div>
     </section>

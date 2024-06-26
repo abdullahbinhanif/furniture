@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className="py-[150px] bg-[url('/banner.jpg')] bg-no-repeat bg-center bg-cover">
       <div className="container">
-        <div className="py-16 px-12 w-1/2 bg-[#FFF3E3] ml-auto rounded-xl font-primary">
+        <div className="pt-14 pb-9 px-10 w-1/2 bg-[#FFF3E3] ml-auto rounded-xl font-primary">
           <h2 className=" text-lg font-semibold text-primary">New Arrival</h2>
           <h3 className="text-[52px] text-brand font-bold w-[410px] leading-[65px] pt-[4px] pb-[27px]">
             Discover Our New Collection

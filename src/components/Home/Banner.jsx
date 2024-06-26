@@ -3,7 +3,7 @@ import Button from "../../Button";
 
 const Banner = () => {
   return (
-    <section className="py-[150px] bg-[url('/banner.jpg')]">
+    <section className="py-[150px] bg-[url('/banner.jpg')] bg-no-repeat bg-center bg-cover">
       <div className="container">
         <div className="py-16 px-12 w-1/2 bg-[#FFF3E3] ml-auto rounded-xl font-primary">
           <h2 className=" text-lg font-semibold text-primary">New Arrival</h2>

@@ -13,11 +13,9 @@ const ProductsItems = () => {
         <p className="text-base font-medium text-[#898989] py-2">
           Stylish cafe chair
         </p>
-        <div className=" flex justify-between gap-8">
-          <h3 className=" text-primary font-semibold text-xl ">
-            BDT 2.500.000
-          </h3>
-          <p className="text-[#B0B0B0] font-normal text-base line-through">
+        <div className=" flex justify-between items-center gap-8">
+          <h3 className=" text-primary text-lg font-semibold">BDT 2.500.000</h3>
+          <p className="text-[#B0B0B0] font-normal text-base line-through ">
             BDT 3.500.000
           </p>
         </div>

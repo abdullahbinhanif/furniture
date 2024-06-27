@@ -14,7 +14,7 @@ const ProductsItems = () => {
           Stylish cafe chair
         </p>
         <div className=" flex justify-between items-center gap-8">
-          <h3 className=" text-primary text-sm font-semibold">BDT 2.500.000</h3>
+          <h3 className=" text-primary text-xl font-semibold">BDT 2.500.000</h3>
           <p className="text-[#B0B0B0] font-normal text-base line-through ">
             BDT 3.500.000
           </p>

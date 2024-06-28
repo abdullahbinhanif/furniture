@@ -1,12 +1,13 @@
-import { FaChevronRight } from "react-icons/fa";
 import { Pagination, A11y, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import React, { useRef } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const ExploreMore = () => {
+  const nextRef = useRef();
+  const preRef = <span></span>;
   return (
     <section className="mb-16 py-11 bg-[#FCF8F3] ">
       <div className="container flex gap-10 items-center">
@@ -27,8 +28,9 @@ const ExploreMore = () => {
             modules={[Pagination, Navigation, A11y]}
             spaceBetween={24}
             slidesPerView={2.3}
-            navigation
-            prevEl={false}
+            navigation={{
+              nextEl: nextRef.current,
+            }}
             pagination={{ clickable: true }}
             onSlideChange={() => "slide change"}
             onSwiper={(swiper) => swiper}
@@ -37,10 +39,10 @@ const ExploreMore = () => {
               <img src="/slide1.png" className="h-[582px] w-full" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/slide1.png" className="h-[486px] w-full" alt="" />
+              <img src="/slide2.png" className="h-[486px] w-full" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/slide1.png" alt="" />
+              <img src="/slide2.png" className="h-[486px] " alt="" />
             </SwiperSlide>
           </Swiper>
         </div>

@@ -28,6 +28,7 @@ const ExploreMore = () => {
             spaceBetween={24}
             slidesPerView={2.3}
             navigation
+            prevEl={false}
             pagination={{ clickable: true }}
             onSlideChange={() => "slide change"}
             onSwiper={(swiper) => swiper}

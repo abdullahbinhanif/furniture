@@ -3,9 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-bullet {
+  border: 1px solid #b88e2f;
+}
 .swiper-pagination-bullet-active {
   background: #b88e2f;
+  border-color: 1px solid #b88e2f;
 }
+
 .swiper-button-prev {
   display: none;
 }

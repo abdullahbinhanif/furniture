@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductsItems = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-8 relative group">
       <img
         className="w-full"
         src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
@@ -19,6 +19,11 @@ const ProductsItems = () => {
             BDT 3.500.000
           </p>
         </div>
+      </div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[rgba(58,58,58,0.31)] flex items-center justify-center scale-0 group-hover:scale-100 transition-al ease-linear duration-500">
+        <button className="text-brand text-base font-primary font-bold py-3 px-[52px] bg-white inline-block">
+          Add To Cart
+        </button>
       </div>
     </div>
   );

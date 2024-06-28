@@ -21,7 +21,7 @@ const OurProducts = () => {
         <div className="flex justify-center mt-8">
           <Link
             to="/shop"
-            className=" text-base text-brand font-semibold border border-brand py-3 px-14"
+            className=" text-base text-brand font-semibold border border-brand py-3 px-14 hover:bg-brand hover:text-white transition-all ease-linear duration-300"
           >
             SHOW MORE
           </Link>

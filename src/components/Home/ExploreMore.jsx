@@ -31,8 +31,14 @@ const ExploreMore = () => {
           <Swiper
             spaceBetween={24}
             slidesPerView={2.3}
+                debugger: true
+          
+      
+        
+    
             onSlideChange={() => "slide change"}
             onSwiper={(swiper) => swiper}
+           
           >
             <SwiperSlide>
               <img src="/slide1.png" className="h-[582px] w-full" alt="" />

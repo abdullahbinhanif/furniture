@@ -1,7 +1,5 @@
-import React from "react";
-
 import { FaChevronRight } from "react-icons/fa";
-
+import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -10,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+
 const ExploreMore = () => {
   return (
     <section className="mb-16 py-11 bg-[#FCF8F3] ">
@@ -29,16 +27,12 @@ const ExploreMore = () => {
         </div>
         <div className="w-3/5">
           <Swiper
+            modules={[Pagination]}
             spaceBetween={24}
             slidesPerView={2.3}
-                debugger: true
-          
-      
-        
-    
+            pagination={{ clickable: true }}
             onSlideChange={() => "slide change"}
             onSwiper={(swiper) => swiper}
-           
           >
             <SwiperSlide>
               <img src="/slide1.png" className="h-[582px] w-full" alt="" />
@@ -50,6 +44,7 @@ const ExploreMore = () => {
               <img src="/slide1.png" alt="" />
             </SwiperSlide>
           </Swiper>
+          
         </div>
       </div>
     </section>

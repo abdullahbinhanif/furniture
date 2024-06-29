@@ -6,7 +6,7 @@ const ExploreMore = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,

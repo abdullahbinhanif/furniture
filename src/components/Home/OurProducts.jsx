@@ -8,7 +8,7 @@ const OurProducts = () => {
         <h2 className=" text-[32px] text-primary font-bold text-center">
           Our Products
         </h2>
-        <div className=" grid grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-4 gap-8 ">
           <ProductsItems />
           <ProductsItems />
           <ProductsItems />

@@ -1,4 +1,7 @@
 import React from "react";
+import browse1 from "../../../public/Dining.png";
+import browse2 from "../../../public/Living.png";
+import browse3 from "../../../public/Bedroom.png";
 const Browse = () => {
   return (
     <section className="py-[56px] ">
@@ -13,19 +16,19 @@ const Browse = () => {
         </div>
         <div className="lg:flex gap-5 ">
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src="/public/Dining.png" className="w-full" alt="Dining" />
+            <img src={browse1} className="w-full" alt="Dining" />
             <p className=" lg:text-2xl text-primary text-xl  text-center font-semibold  mb-4 lg:mt-8">
               Dining
             </p>
           </div>
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src="/public/Living.png" className="w-full " alt="Living" />
+            <img src={browse2} className="w-full " alt="Living" />
             <p className=" lg:text-2xl text-primary text-xl text-center font-semibold mb-4  lg:mt-8 ">
               Living
             </p>
           </div>
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src="/public/Bedroom.png" className="w-full" alt="Bedroom" />
+            <img src={browse3} className="w-full" alt="Bedroom" />
             <p className=" lg:text-2xl text-primary text-xl text-center font-semibold  lg:mt-8">
               Bedroom
             </p>

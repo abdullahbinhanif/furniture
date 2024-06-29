@@ -3,12 +3,12 @@ import { FaRegUser, FaRegHeart } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-
+import logo from "../../public/logo.png";
 const Navbar = () => {
   return (
     <nav>
       <div className="py-7 container flex justify-between items-center">
-        <img src="/public/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
         <ul className="flex items-center gap-[75px] text-lg font-primary text-black font-medium">
           <Link>
             <li>Home</li>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 const NextArrow = ({ onClick }) => {
   return (
@@ -11,4 +11,4 @@ const NextArrow = ({ onClick }) => {
   );
 };
 
-export default NextArrow
+export default NextArrow;

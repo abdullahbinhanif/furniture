@@ -8,7 +8,7 @@ const OurProducts = () => {
         <h2 className=" text-[32px] text-primary font-bold text-center">
           Our Products
         </h2>
-        <div className="grid grid-cols-4 gap-8 ">
+        <div className="grid lg:grid-cols-4 lg:gap-8">
           <ProductsItems />
           <ProductsItems />
           <ProductsItems />
@@ -21,7 +21,7 @@ const OurProducts = () => {
         <div className="flex justify-center mt-8">
           <Link
             to="/shop"
-            className=" text-base text-brand font-semibold border border-brand py-3 px-14 hover:bg-brand hover:text-white transition-all ease-linear duration-300"
+            className=" text-base text-brand font-semibold border border-brand lg:py-3 lg:px-14 py-2 px-5 hover:bg-brand hover:text-white transition-all ease-linear duration-300"
           >
             SHOW MORE
           </Link>

@@ -5,6 +5,7 @@ const ProductsItems = () => {
   return (
     <div className="mt-8 relative group  lg:w-full w-2/3 mx-auto ">
       <img
+        loading="lazy"
         className="w-full"
         src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
         alt=""
@@ -26,8 +27,8 @@ const ProductsItems = () => {
         </div>
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-[rgba(58,58,58,0.31)] flex items-center justify-center scale-0 group-hover:scale-100 transition-al ease-linear duration-500">
-        <button className="text-brand text-base font-primary font-bold lg:py-3 lg:px-[52px] py-1 px-2 rounded-sm bg-white ">
-          <CiShoppingBasket className="lg:text-3xl text-5xl" />
+        <button className="text-brand text-base font-primary font-bold lg:py-3 lg:px-[52px] py-1 px-2 rounded-sm bg-[#f1f1f1da] inline-block">
+          <CiShoppingBasket className="lg:text-3xl text-5xl overflow-hidden" />
         </button>
       </div>
     </div>

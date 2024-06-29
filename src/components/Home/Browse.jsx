@@ -16,19 +16,29 @@ const Browse = () => {
         </div>
         <div className="lg:flex gap-5 ">
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src={browse1} className="w-full" alt="Dining" />
+            <img loading="lazy" src={browse1} className="w-full" alt="Dining" />
             <p className=" lg:text-2xl text-primary text-xl  text-center font-semibold  mb-4 lg:mt-8">
               Dining
             </p>
           </div>
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src={browse2} className="w-full " alt="Living" />
+            <img
+              loading="lazy"
+              src={browse2}
+              className="w-full "
+              alt="Living"
+            />
             <p className=" lg:text-2xl text-primary text-xl text-center font-semibold mb-4  lg:mt-8 ">
               Living
             </p>
           </div>
           <div className="lg:w-1/3 w-2/3 mx-auto">
-            <img src={browse3} className="w-full" alt="Bedroom" />
+            <img
+              loading="lazy"
+              src={browse3}
+              className="w-full"
+              alt="Bedroom"
+            />
             <p className=" lg:text-2xl text-primary text-xl text-center font-semibold  lg:mt-8">
               Bedroom
             </p>

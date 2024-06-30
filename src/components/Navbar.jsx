@@ -52,7 +52,7 @@ const Navbar = () => {
                 <li onClick={ToggleChange}>Contact</li>
               </Link>
             </ul>
-            <button className="absolute top-[80px] z-10 right-5 py-2 px-4 cursor-pointer">
+            <button className="absolute top-[80px] z-10 right-5 py-4 mr-10 cursor-pointer">
               <RxCross2
                 onClick={ToggleChange}
                 size={30}

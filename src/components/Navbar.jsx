@@ -4,7 +4,6 @@ import { CiSearch } from "react-icons/ci";
 import { FaCartShopping } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 import { CgMenuRight } from "react-icons/cg";
-
 import { Link } from "react-router-dom";
 import logo from "../../public/logo.png";
 const Navbar = () => {
@@ -15,7 +14,11 @@ const Navbar = () => {
   return (
     <nav className="px-5 fixed w-full z-50 bg-white border-b  ">
       <div className="py-7 container flex justify-between items-center">
-        <img src={logo} alt="logo" />
+        <div className="lg:w-[185px]   w-[100px]">
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
+        </div>
 
         <div className="md:block hidden ">
           <ul className="flex items-center gap-[75px] text-lg font-primary text-black font-medium">
@@ -61,7 +64,7 @@ const Navbar = () => {
           ""
         )}
 
-        <ul className="flex  items-center gap-5 md:gap-10  lg:gap-10 text-2xl">
+        <ul className="flex  items-center gap-5  lg:gap-10 text-2xl">
           <Link>
             <li>
               <FaRegUser />

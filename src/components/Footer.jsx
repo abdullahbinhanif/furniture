@@ -101,7 +101,7 @@ const Footer = () => {
     <footer class=" border-t">
       <div className="container">
         <div class="container py-10 mx-auto">
-          <div class="flex flex-wrap md:text-left text-center order-first lg:justify-between">
+          <div class="flex flex-wrap  text-center order-first lg:justify-between">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4 ">
               <div>
                 <img src="/logo.png" alt="" />
@@ -152,7 +152,7 @@ const Footer = () => {
               </ul>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <ul class="list-none mb-10">
+              <ul class="list-none   mb-10">
                 <li>
                   <p className="text-base font-normal font-primary text-[#9F9F9F] lg:pb-14 pb-5 mt-10 lg:mt-0">
                     Help

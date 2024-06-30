@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     // <footer className="pt-12 pb-9 border-t">
@@ -185,7 +184,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="lg:w-1/4 w-full px-4">
+            <div class="lg:w-1/4  w-full px-4">
               <p className="text-base font-normal font-primary text-[#9F9F9F] lg:pb-14 pb-5">
                 Newsletter
               </p>

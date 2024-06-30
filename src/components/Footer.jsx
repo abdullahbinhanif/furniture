@@ -101,8 +101,8 @@ const Footer = () => {
     <footer class=" border-t">
       <div className="container">
         <div class="container py-10 mx-auto">
-          <div class="flex flex-wrap  text-center order-first lg:justify-between">
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4 ">
+          <div class="flex flex-wrap text-center  lg:justify-between">
+            <div class="lg:w-1/4  w-full px-4 ">
               <div>
                 <img src="/logo.png" alt="" />
                 <p className="text-base font-normal font-primary text-[#9F9F9F] w-[285px] pt-14 lg:text-left m-auto ">
@@ -185,7 +185,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div class="lg:w-1/4 w-full px-4">
               <p className="text-base font-normal font-primary text-[#9F9F9F] lg:pb-14 pb-5">
                 Newsletter
               </p>

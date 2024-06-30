@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         {isopen ? (
           <div className=" ">
-            <ul className="flex flex-col gap-10 absolute top-[73px] left-0 w-full h-screen bg-[#f1f1f1]  z-10 items-center text-xl justify-center font-secondary font-semibold">
+            <ul className="flex flex-col gap-10 absolute top-[73px] left-0 pb-56 w-full h-screen bg-[#f1f1f1]  z-10 items-center text-xl justify-center font-secondary font-semibold">
               <Link>
                 <li onClick={ToggleChange}>Home</li>
               </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <li onClick={ToggleChange}>Contact</li>
               </Link>
             </ul>
-            <button className=" absolute top-[80px] z-10 right-5 py-2 px-4 cursor-pointer">
+            <button className="absolute top-[80px] z-10 right-5 py-2 px-4 cursor-pointer">
               <RxCross2
                 onClick={ToggleChange}
                 size={30}
@@ -63,7 +63,6 @@ const Navbar = () => {
         ) : (
           ""
         )}
-
         <ul className="flex  items-center gap-5  lg:gap-10 text-2xl">
           <Link>
             <li>
@@ -87,8 +86,7 @@ const Navbar = () => {
             </li>
           </Link>
         </ul>
-
-        <button onClick={ToggleChange} className="md:hidden  ">
+        <button onClick={ToggleChange} className="md:hidden mr-6">
           <CgMenuRight size={30} />
         </button>
       </div>

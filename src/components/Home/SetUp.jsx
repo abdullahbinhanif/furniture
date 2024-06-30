@@ -3,10 +3,10 @@ import React from "react";
 const SetUp = () => {
   return (
     <section className="mb-12">
-      <h3 className="text-xl font-primary text-secondary font-semibold text-center">
+      <h3 className="lg:text-xl text-lg font-primary text-secondary font-semibold text-center">
         Share your setup with
       </h3>
-      <h2 className="text-4xl font-primary text-primary font-bold text-center ">
+      <h2 className="lg:text-4xl text-2xl font-primary text-primary font-bold text-center lg:mb-0 mb-4 ">
         #FuniroFurniture
       </h2>
       <div className="setup h-[720px] gap-3">

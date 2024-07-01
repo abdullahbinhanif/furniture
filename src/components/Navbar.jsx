@@ -11,6 +11,7 @@ const Navbar = () => {
   const ToggleChange = () => {
     isopen === false ? setIsOpen(true) : setIsOpen(false);
   };
+
   return (
     <nav className="z-50  fixed w-full bg-white border-b">
       <div className="py-7  container flex justify-between items-center">

@@ -87,7 +87,7 @@ const Navbar = () => {
             </li>
           </Link>
         </ul>
-        <button onClick={ToggleChange} className="md:hidden mr-12">
+        <button onClick={ToggleChange} className="md:hidden pl-10">
           <CgMenuRight size={30} />
         </button>
       </div>

@@ -60,7 +60,7 @@ const ExploreMore = () => {
           <h2 className="text-3xl lg:text-4xl font-bold font-primary text-[#3A3A3A] lg:w-[410px]">
             50+ Beautiful rooms inspiration
           </h2>
-          <p className="text-base lg:text-lg text-secondary font-medium font-primary lg:w-[368px] pt-3 lg:pt-6 pb-6">
+          <p className="text-base lg:text-lg text-secondary font-medium font-primary w-[368px] pt-3 lg:pt-6 pb-6">
             Our designers have created a variety of beautiful room prototypes to
             inspire you.
           </p>

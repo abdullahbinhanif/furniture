@@ -64,7 +64,7 @@ const Navbar = () => {
         ) : (
           ""
         )}
-        <ul className="flex  items-center gap-5  lg:gap-10 text-2xl">
+        <ul className="flex  items-center gap-5   lg:gap-10 text-xl lg:text-2xl">
           <Link>
             <li>
               <FaRegUser />

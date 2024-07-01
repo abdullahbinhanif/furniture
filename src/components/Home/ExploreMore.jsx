@@ -20,7 +20,8 @@ const ExploreMore = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: false,
+    nextArrow: <NextArrow />,
+    prevArrow: <span></span>,
   };
   return (
     // <section className="mb-16 py-11 bg-[#FCF8F3] explore ">

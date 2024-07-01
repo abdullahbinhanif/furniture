@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-50  fixed w-full bg-white border-b">
+    <nav className="z-50 px-2 fixed w-full bg-white border-b">
       <div className="py-7  container flex justify-between items-center">
         <div className="lg:w-[185px]   w-[130px]">
           <Link to="/">
@@ -88,7 +88,7 @@ const Navbar = () => {
           </Link>
         </ul>
         <button onClick={ToggleChange} className="md:hidden pl-">
-          <CgMenuRight size={30} />
+          <CgMenuRight className=" animate-pulse duration-100" size={30} />
         </button>
       </div>
     </nav>

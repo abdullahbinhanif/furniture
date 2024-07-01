@@ -3,15 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import NextArrow from "../NextArrow";
 const ExploreMore = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 400,
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   nextArrow: <NextArrow />,
-  //   prevArrow: <span></span>,
-  // };
+  // Slider settings
   const settings = {
     dots: true,
     infinite: true,
@@ -23,6 +15,15 @@ const ExploreMore = () => {
     nextArrow: <NextArrow />,
     prevArrow: <span></span>,
   };
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 400,
+  //   slidesToShow: 2,
+  //   slidesToScroll: 1,
+  //   nextArrow: <NextArrow />,
+  //   prevArrow: <span></span>,
+  // };
   return (
     // <section className="mb-16 py-11 bg-[#FCF8F3] explore ">
     //   <div className="container flex gap-10 items-center">

@@ -12,7 +12,7 @@ const Navbar = () => {
     isopen === false ? setIsOpen(true) : setIsOpen(false);
   };
   return (
-    <nav className="z-50  fixed w-full  bg-white border-b">
+    <nav className="z-50  fixed w-full bg-white border-b">
       <div className="py-7  container flex justify-between items-center">
         <div className="lg:w-[185px]   w-[130px]">
           <Link to="/">

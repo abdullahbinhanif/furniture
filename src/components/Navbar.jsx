@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
         {isopen ? (
           <div className=" ">
-            <ul className="flex flex-col gap-10 absolute top-[73px] right-0  pb-56 w-56 h-screen bg-white  z-10 items-center text-xl justify-center font-secondary font-semibold">
+            <ul className="flex flex-col gap-10 absolute top-[73px] right-0 pb-80 w-56 h-screen bg-white  z-10 items-center text-xl justify-center font-primary font-semibold">
               <Link>
                 <li onClick={ToggleChange}>Home</li>
               </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <li onClick={ToggleChange}>Contact</li>
               </Link>
             </ul>
-            <button className="absolute top-[80px] z-10 right-5 py-4 mr-10 cursor-pointer">
+            <button className="absolute top-[80px] z-10 right-5 py-5 mr-5 cursor-pointer">
               <IoMdClose
                 onClick={ToggleChange}
                 size={30}

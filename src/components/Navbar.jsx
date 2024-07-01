@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
         {isopen ? (
           <div className=" ">
-            <ul className="flex flex-col gap-10 absolute top-[73px] left-0 pb-56 w-full h-screen bg-white  z-10 items-center text-xl justify-center font-secondary font-semibold">
+            <ul className="flex flex-col gap-10 absolute top-[73px] right-0  pb-56 w-56 h-screen bg-white  z-10 items-center text-xl justify-center font-secondary font-semibold">
               <Link>
                 <li onClick={ToggleChange}>Home</li>
               </Link>
